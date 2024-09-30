@@ -1,0 +1,96 @@
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HomePage from './components/HomePage'; // Adjust path as necessary
+import Quiz from './components/Quiz';        // Adjust path as necessary
+
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/quiz" element={<Quiz />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;
+
+
+
+
+
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './HomePage.css';
+
+const HomePage = () => {
+  const navigate = useNavigate();
+
+  const startQuiz = () => {
+    navigate('/quiz');  // Redirect to quiz page
+  };
+
+  return (
+    <div className="homepage-container">
+      <header className="header">
+        <h1>Welcome to [Company Name] Quiz</h1>
+      </header>
+      <main className="main-content">
+        <button className="start-quiz-btn" onClick={startQuiz}>
+          Start Quiz
+        </button>
+      </main>
+      <footer className="footer">
+        <p>Test your knowledge about [Company Name] and win prizes!</p>
+      </footer>
+    </div>
+  );
+};
+
+export default HomePage;
+
+
+.homepage-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #4B0082, #8A2BE2);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.header {
+  font-size: 2.5rem;
+  margin-top: 50px;
+}
+
+.start-quiz-btn {
+  background-color: white;
+  color: #4B0082;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.start-quiz-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+
+/* Dark purple gradient */
+background: linear-gradient(135deg, #4B0082, #8A2BE2);
+color: white;
+

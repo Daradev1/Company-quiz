@@ -1,0 +1,25 @@
+.bottom{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: .2rem auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    text-align: center; /* Center the button */
+    padding: 10px;
+    background-color: #4a148c
+  }
+  .bottom ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+  .bottom ul li{
+    list-style-type: none;
+    color: #fff;
+    cursor: pointer;
+  }

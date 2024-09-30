@@ -1,0 +1,26 @@
+.Eligible{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #553f9a;
+    text-align: center;
+}
+
+.Eligible form input{
+    display: block;
+    width: 100%;
+    background: #EBECFE;
+    padding: 15PX;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+span{
+    display: block;
+    margin:20px 0;
+}
