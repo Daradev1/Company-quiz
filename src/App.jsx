@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Quiz from './componets/Quiz/Quiz'
 import Home from './componets/Home/Home'
-import Footer from './componets/Footer/footer'
+import Footer from './componets/Footer/Footer'
 
 const App = () => {
   return (
