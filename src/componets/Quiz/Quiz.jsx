@@ -36,7 +36,7 @@ const Quiz = () => {
       } else {
         e.target.classList.add('wrong');
         setLock(true);
-        optionArray[question.ans - 1].current.classList.add('correct');
+        // optionArray[question.ans - 1].current.classList.add('correct');
       }
     }
   };
