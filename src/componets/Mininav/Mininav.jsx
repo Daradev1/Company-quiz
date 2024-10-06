@@ -16,7 +16,7 @@ const Mininav = () => {
       {active === 'home' ? (
         <a href="/" className="nav-link">Home</a>
       ) : (
-        <a href="https://yourcompanywebsite.com" target="_blank" rel="noopener noreferrer" className="nav-link">Visit Our Website</a>
+        <a href="https://masterfrosty.com" target="_blank" rel="noopener noreferrer" className="nav-link">Visit Our Website</a>
       )}
     </div>
   );

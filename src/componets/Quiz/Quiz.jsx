@@ -111,7 +111,7 @@ const Quiz = () => {
             <>
               You scored {score} out of {data.length}
               <br />
-              {score >= 3 ? <Eligible /> : <NotEligible/>}
+              {score >= 7 ? <Eligible /> : <NotEligible/>}
             </>
           ) : (
             <></>

@@ -1,5 +1,5 @@
 .Home{
-  color: white;
+  color: rgb(65, 64, 64);
   padding: 20px;
   margin: 0 auto;
   text-align: center;
@@ -26,8 +26,8 @@
 
 .start-quiz-btn {
   margin-top: 2rem;
-  background-color: white;
-  color: #4B0082;
+  background-color: #4a148c;
+  color: #fff;
   border: none;
   padding: 15px 30px;
   font-size: 1.2rem;

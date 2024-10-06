@@ -7,14 +7,14 @@
 }
 body{ 
 
-  background: #6410b3;
+  background: #F9F5FF;
   font-family: "poppins", system-ui;
   
 }
 
 .eligible-btn{
   color: #fff;
-  background-color:#9310f0;
+  background-color:#4a148c;
   padding: .5rem 2rem;
   cursor: pointer;
   border: 2px solid #fff;
